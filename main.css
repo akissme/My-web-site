@@ -1,0 +1,425 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.lista_principal {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav {
+    background-color: #121ef6;
+    color: white;
+    padding: 10px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+body {
+    background-color: blue;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+.lista_principal {
+    margin-left: 90px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    list-style-type: none;
+    padding: 10px;
+}
+
+.lista_principal li {
+    display: inline-block;
+    margin-right: 10px;
+    padding: 10px;
+    background-color: blue;
+    transition: background-color 0.3s;
+}
+
+.lista_principal li:hover {
+    background-color: #120A8F;
+}
+
+.lista_principal li:first-child {
+    margin-left: 0;
+}
+
+.lista_principal li a {
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+#pesquisa {
+    margin-left: 60px;
+}
+
+.logo {
+    background-color: #ffffff;
+    padding: 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.logonew {
+    width: 200px;
+    height: 100px;
+    max-width: 100%;
+    margin-left: 10px;
+}
+
+.pesquisa-container {
+    display: flex;
+    align-items: center;
+}
+
+.pesquisa-icon {
+    font-size: 30px;
+    cursor: pointer;
+    color: white;
+}
+
+.hidden {
+    display: none;
+    background-color: blue;
+}
+
+.destaque figcaption {
+    color: black;
+}
+
+.destaque-word {
+    color: blue;
+}
+
+.destaques {
+    margin-top: 20px;
+    background-color: #ffffff;
+    display: flex;
+}
+
+.destaque {
+    justify-content: space-between;
+    background-color: #f2f2f2;
+    align-items: baseline;
+}
+
+figure {
+    text-align: center;
+}
+
+figcaption {
+    text-align: center;
+}
+
+.dest1,
+.dest2,
+.dest3,
+.dest4 {
+    margin-left: 80px;
+    margin-right: 80px;
+    width: 500px;
+    height: 300px;
+}
+
+.destaque figcaption {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.destaque h1 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.destaques {
+    overflow: hidden;
+}
+
+.carousel {
+    display: flex;
+    width: 100%;
+    transition: transform 0.5s ease;
+}
+
+.destaque {
+    flex: 0 0 auto;
+    margin-right: 60px;
+}
+
+.destaque-ativo {}
+
+.dest10,
+.dest11,
+.dest12,
+.dest13 {
+    width: 600px;
+    height: 400px;
+    max-width: 70%;
+    height: auto;
+}
+
+.terror,
+.romance {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    background-color: white;
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
+    border-bottom: 2px solid black;
+}
+
+.terror>div,
+.romance>div {
+    margin: 0 10px;
+    text-align: center;
+    background-color: #111;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.terror>.borda,
+.romance>.borda {
+    width: 2px;
+    background-color: black;
+    margin-left: 20px;
+}
+
+.destaque_terror,
+.destaque_romance {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.destaque_terror figcaption,
+.destaque_romance figcaption {
+    margin-top: 10px;
+}
+
+.destaque_terror h1,
+.destaque_romance h1 {
+    margin-top: 20px;
+}
+
+.destaque_terror article,
+.destaque_romance article {
+    margin-top: 10px;
+}
+
+.destfilm,
+.destfilm2,
+.dest2temps,
+.dest2temp {
+    max-width: 100%;
+    height: auto;
+}
+
+.destfilm,
+.destfilm2,
+.dest2temps,
+.dest2temp {
+    width: 600px;
+    height: 400px;
+    max-width: 70%;
+    height: auto;
+}
+
+.filmes,
+.temp {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    background-color: white;
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
+    border-bottom: 2px solid black;
+}
+
+.filmes>div,
+.temp>div {
+    margin: 0 10px;
+    text-align: center;
+    background-color: #111;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.filmes>.borda,
+.temp>.borda {
+    width: 2px;
+    background-color: black;
+    margin-left: 20px;
+}
+
+.destaque_filme,
+.destaque_temp {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.destaque_filme figcaption,
+.destaque_temp figcaption {
+    margin-top: 10px;
+}
+
+.destaque_filme h1,
+.destaque_temp h1 {
+    margin-top: 20px;
+}
+
+.destaque_filme article,
+.destaque_temp article {
+    margin-top: 10px;
+}
+
+.mangas1,
+.mangas2,
+.novels1,
+.novels2 {
+    max-width: 100%;
+    height: auto;
+}
+
+.manga,
+.light-novels {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    background-color: white;
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
+    border-bottom: 2px solid black;
+}
+
+.manga>div,
+.light-novels>div {
+    margin: 0 10px;
+    text-align: center;
+    background-color: #111;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.manga>.borda,
+.light-novels>.borda {
+    width: 2px;
+    background-color: black;
+    margin-left: 20px;
+}
+
+.destaque_manga,
+.destaque_novels {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.destaque_manga figcaption,
+.destaque_novels figcaption {
+    margin-top: 10px;
+}
+
+.destaque_manga h1,
+.destaque_novels h1 {
+    margin-top: 20px;
+}
+
+.destaque_manga article,
+.destaque_novels article {
+    margin-top: 10px;
+}
+
+.mangas1,
+.mangas2,
+.novels1,
+.novels2,
+.nelhores1,
+.melhores2 {
+    max-width: 100%;
+    height: auto;
+    width: auto;
+    max-height: 400px;
+    /* Ajuste a altura máxima conforme desejado */
+}
+
+.melhor_animes {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    background-color: white;
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
+    border-bottom: 2px solid black;
+}
+
+.melhor_animes>div {
+    margin: 0 10px;
+    text-align: center;
+    background-color: #111;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.melhor_animes>.borda {
+    width: 2px;
+    background-color: black;
+    margin-left: 20px;
+}
+
+.destaque_melhores {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.destaque_melhores figcaption {
+    margin-top: 10px;
+}
+
+.destaque_melhores h1 {
+    margin-top: 20px;
+}
+
+.destaque_melhores article {
+    margin-top: 10px;
+}
+
+@media screen and (max-width: 768px) {
+    .destaque {
+        margin-right: 10px;
+    }
+}
